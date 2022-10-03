@@ -24,7 +24,7 @@ body {
 }
 
 .right__panel__content {
-    padding-top: 10px;
+    padding-top: 20px;
     max-width: 100%;
 }
 
@@ -260,7 +260,6 @@ input {
     .left__panel img {
         width: 80%;
         height: 30%;
-        max-height: 200px;
     }
 
     .right__panel {
