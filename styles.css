@@ -122,6 +122,10 @@ input {
     font-weight: 600;
 }
 
+#account a:hover {
+    text-decoration: underline #FF9F2E;
+}
+
 /* Media Responsiveness */
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -256,6 +260,7 @@ input {
     .left__panel img {
         width: 80%;
         height: 30%;
+        max-height: 200px;
     }
 
     .right__panel {
