@@ -59,10 +59,15 @@ input {
     height: 44px;
     background-color: #FDFDFD;
     border: 1px solid #D2D2D2;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 0.8em;
     padding-left: 10px;
     margin-bottom: 8px;
+    box-shadow: 1px 1px 1px gainsboro;
+}
+
+input:focus {
+    outline: none;
 }
 
 .check_box {
@@ -93,13 +98,14 @@ input {
     padding: 10px 80px;
     margin-top: 10px;
     background-color: #FF9F2E;
-    border-radius: 8px;
+    border-radius: 6px;
     border: none;
     font-size: 0.9em;
     color: white;
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    box-shadow: 5px 8px 8px gainsboro;
 }
 
 .create_bttn:hover {
@@ -166,7 +172,7 @@ input {
     height: 36px;
     background-color: #FDFDFD;
     border: 1px solid #D2D2D2;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 0.8em;
     padding-left: 10px;
     margin-bottom: 8px;
@@ -200,13 +206,14 @@ input {
     padding: 10px 80px;
     margin-top: 10px;
     background-color: #FF9F2E;
-    border-radius: 8px;
+    border-radius: 6px;
     border: none;
     font-size: 0.9em;
     color: white;
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    box-shadow: 5px 8px 8px gainsboro;
 }
 
 .create_bttn:hover {
@@ -305,7 +312,7 @@ input {
         height: 32px;
         background-color: #FDFDFD;
         border: 1px solid #D2D2D2;
-        border-radius: 8px;
+        border-radius: 6px;
         font-size: 0.8em;
         padding-left: 10px;
         margin-bottom: 8px;
@@ -340,7 +347,7 @@ input {
         padding: 10px 100px;
         margin-top: 8px;
         background-color: #FF9F2E;
-        border-radius: 8px;
+        border-radius: 6px;
         border: none;
         font-size: 0.8em;
         color: white;
@@ -437,7 +444,7 @@ input {
         height: 32px;
         background-color: #FDFDFD;
         border: 1px solid #D2D2D2;
-        border-radius: 8px;
+        border-radius: 6px;
         font-size: 0.8em;
         padding-left: 10px;
         margin-bottom: 8px;
@@ -470,7 +477,7 @@ input {
     .create_bttn {
         width: 100%;
         padding: 10px 100px;
-        margin-top: 8px;
+        margin-top: 6px;
         background-color: #FF9F2E;
         border-radius: 8px;
         border: none;
