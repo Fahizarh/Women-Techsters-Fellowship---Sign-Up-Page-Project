@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.main__container {
+    width: 100%;
+    height: 100vh;
+}
+
+.left__panel {
+    display: none;
+}
+
+.right__panel {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.right__panel__content {
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.right__panel__content h1 {
+    font-family: 'Playfair Display';
+    font-size: 1.5em;
+    line-height: 120%;
+    letter-spacing: 2%;
+    margin-bottom: 6px;
+    color: #2A2A2A;
+}
+
+.right__panel__content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 26px;
+    color: #909090;
+    margin-bottom: 28px;
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 26px;
+    color: #4D4D4D;
+}
+
+input {
+    width: 100%;
+    height: 44px;
+    background-color: #FDFDFD;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    font-size: 0.8em;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+.check_box {
+    margin-top: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #FDFDFD;
+    border: 1px solid #B0B0B0;
+}
+
+.terms_content{
+    margin-left: 6px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 19px;
+    color: #909090;
+    max-width: 100%;
+}
+
+.bold {
+    color: black;
+    font-weight: 600;
+}
+
+.create_bttn {
+    width: 100%;
+    padding: 10px 80px;
+    margin-top: 10px;
+    background-color: #FF9F2E;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.9em;
+    color: white;
+    line-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.create_bttn:hover {
+    color: #FF9F2E;
+    background-color: white;
+    border: 1px solid #FF9F2E;
+}
+
+#account {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;
+    line-height: 20px;
+    color:  #909090;
+    margin-top: 8px;
+}
+
+#account a {
+    text-decoration: none;
+    color: #FF9F2E;
+    font-weight: 600;
+}
+
+/* Media Responsiveness */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .right__panel__content {
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.right__panel__content h1 {
+    font-family: 'Playfair Display';
+    font-size: 1.5em;
+    line-height: 120%;
+    letter-spacing: 2%;
+    margin-bottom: 6px;
+    color: #2A2A2A;
+}
+
+.right__panel__content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 18px;
+    color: #909090;
+    margin-bottom: 12px;
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+input {
+    width: 100%;
+    height: 36px;
+    background-color: #FDFDFD;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    font-size: 0.8em;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+.check_box {
+    margin-top: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: #FDFDFD;
+    border: 1px solid #B0B0B0;
+}
+
+.terms_content{
+    margin-left: 6px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 12px;
+    color: #909090;
+    max-width: 100%;
+}
+
+.bold {
+    color: black;
+    font-weight: 600;
+}
+
+.create_bttn {
+    width: 100%;
+    padding: 10px 80px;
+    margin-top: 10px;
+    background-color: #FF9F2E;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.9em;
+    color: white;
+    line-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.create_bttn:hover {
+    color: #FF9F2E;
+    background-color: white;
+    border: 1px solid #FF9F2E;
+}
+
+#account {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;
+    line-height: 20px;
+    color:  #909090;
+    margin-top: 8px;
+}
+
+#account a {
+    text-decoration: none;
+    color: #FF9F2E;
+    font-weight: 600;
+}
+
+}
+
+/* For devices with width between 769px and 1279px */
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .main__container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .left__panel {
+        background-color: #FF9F2E;
+        display: block;
+        visibility: visible;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .left__panel p {
+        width: 80%;
+        color: #E9E9E9;
+        font-size: 0.8em;
+    }
+
+    .left__panel img {
+        width: 80%;
+        height: 30%;
+    }
+
+    .right__panel {
+        width: 70%;
+    }
+
+    .right__panel__content {
+        max-width: 90%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .right__panel__content h1 {
+        font-family: 'Playfair Display';
+        font-size: 1.75em;
+        line-height: 18px;
+        letter-spacing: 2%;
+        margin-bottom: 8px;
+        color: #2A2A2A;
+        width: 100%;
+    }
+
+    .right__panel__content p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 14px;
+        color: #909090;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    
+    label {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 18px;
+        color:  #909090;
+    }
+    
+    input {
+        width: 100%;
+        height: 32px;
+        background-color: #FDFDFD;
+        border: 1px solid #D2D2D2;
+        border-radius: 8px;
+        font-size: 0.8em;
+        padding-left: 10px;
+        margin-bottom: 8px;
+        margin-top: 6px;
+    }
+
+    .check_box {
+        margin-top: 8px;
+        width: 10px;
+        height: 10px;
+        background-color: #FDFDFD;
+        border: 1px solid #B0B0B0;
+    }
+    
+    .terms_content{
+        margin-left: 6px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 12px;
+        color: #909090;
+        max-width: 100%;
+    }
+    
+    .bold {
+        color: black;
+        font-weight: 600;
+    }
+    
+    .create_bttn {
+        width: 100%;
+        padding: 10px 100px;
+        margin-top: 8px;
+        background-color: #FF9F2E;
+        border-radius: 8px;
+        border: none;
+        font-size: 0.8em;
+        color: white;
+        line-height: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+    
+    #account {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.8em;
+        line-height: 20px;
+        color:  #909090;
+        margin-top: 8px;
+    }
+    
+    #account a {
+        text-decoration: none;
+        color: #FF9F2E;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 1279px) {
+
+    .main__container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .left__panel {
+        background-color: #FF9F2E;
+        display: block;
+        visibility: visible;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .left__panel p {
+        width: 80%;
+        color: #E9E9E9;
+        font-size: 0.8em;
+    }
+
+    .left__panel img {
+        width: 80%;
+        height: 30%;
+    }
+
+    .right__panel {
+        width: 70%;
+    }
+
+    .right__panel__content {
+        padding-top: 20px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .right__panel__content h1 {
+        font-family: 'Playfair Display';
+        font-size: 1.75em;
+        line-height: 18px;
+        letter-spacing: 2%;
+        margin-bottom: 8px;
+        color: #2A2A2A;
+        width: 100%;
+    }
+
+    .right__panel__content p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 14px;
+        color: #909090;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    
+    label {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 18px;
+        color:  #909090;
+    }
+    
+    input {
+        width: 100%;
+        height: 32px;
+        background-color: #FDFDFD;
+        border: 1px solid #D2D2D2;
+        border-radius: 8px;
+        font-size: 0.8em;
+        padding-left: 10px;
+        margin-bottom: 8px;
+        margin-top: 6px;
+    }
+
+    .check_box {
+        margin-top: 8px;
+        width: 10px;
+        height: 10px;
+        background-color: #FDFDFD;
+        border: 1px solid #B0B0B0;
+    }
+    
+    .terms_content{
+        margin-left: 6px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 12px;
+        color: #909090;
+        max-width: 100%;
+    }
+    
+    .bold {
+        color: black;
+        font-weight: 600;
+    }
+    
+    .create_bttn {
+        width: 100%;
+        padding: 10px 100px;
+        margin-top: 8px;
+        background-color: #FF9F2E;
+        border-radius: 8px;
+        border: none;
+        font-size: 0.8em;
+        color: white;
+        line-height: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+    
+    #account {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.8em;
+        line-height: 20px;
+        color:  #909090;
+        margin-top: 8px;
+    }
+    
+    #account a {
+        text-decoration: none;
+        color: #FF9F2E;
+        font-weight: 600;
+    }
+    
+}
+
+

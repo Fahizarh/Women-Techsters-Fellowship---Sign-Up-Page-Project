@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshire Sign Up Page</title>
+
+    <!-- Links to external files -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Links to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="main__container">
+        <section class="left__panel">
+            <p>“If you only read the books that everyone else is reading, you can only think what everyone else is
+                thinking.”</p>
+            <img src="./images/reading side.png" alt="">
+        </section>
+
+        <section class="right__panel">
+            <div class="right__panel__content">
+                <h1>Welcome to Bookshire </h1>
+                <p>A community of zealous readers who are ready to change the world through books.</p>
+                <form action="">
+
+                    <div class="name_section">
+                        <div class="name_section_one">
+                            <label for="first_name">First Name</label><br>
+                            <input type="text" id="first_name">
+                        </div>
+
+                        <div class="name_section_two">
+                            <label for="last_name" class="label">Last Name</label><br>
+                            <input type="text" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="email_section">
+                        <label for="email_address">Email Address</label><br>
+                        <input type="email" id="email_address">
+                    </div>
+
+                    <div class="password_section">
+                        <div class="password_section_one">
+                            <label for="password">Password</label><br>
+                            <input type="password" class="password">
+                        </div>
+
+                        <div class="password_section_two">
+                            <label for="password_confirmation">Confirm Password</label><br>
+                            <input type="password" class="password_confirmation">
+                        </div>
+                    </div>
+
+                    <input type="checkbox" id="term_agreement" class="check_box">
+                    <label for="terms" class="terms_content">I agree to the <span class="bold">Terms</span> and
+                        <span class="bold">Agreement</span> of
+                        Bookshire</label><br>
+
+                    <button class="create_bttn">Create Account</button>
+
+                    <p id="account">Already have an account? <a href="#">Log in</a></p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
